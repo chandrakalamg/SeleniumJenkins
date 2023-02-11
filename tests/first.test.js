@@ -3,7 +3,7 @@ require("chromedriver");
  
 async function example(){
  
-       var searchString = "Selenium";
+       var searchString = "Selenium Jenkins";
  
        //To wait for browser to build and launch properly
        let driver = await new Builder().forBrowser("chrome").build();
